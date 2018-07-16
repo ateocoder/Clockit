@@ -12,7 +12,7 @@ CURLOPT_TIMEOUT  => 30,
 CURLOPT_HTTP_VERSION  => CURL_HTTP_VERSION_1_1,
 CURLOPT_CUSTOMREQUEST  => "GET",
 CURLOPT_HTTPHEADER  => array(
-"authorization: Bearer tick_e78aec11e323ed0e5f7bd33edffa121ffbc59a2af57d32ff704f3c887ef2f708.clockit.io",
+"authorization: Ask me for the authorization: t.houichime@ateo.ma",
 "cache-control: no-cache",
 "content-type: application/json"
 ),
