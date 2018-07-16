@@ -44,7 +44,7 @@ $Data = seek_data(date("Y-m-d", strtotime( '-1 days' ) ),date("Y-m-d", strtotime
 $employeescount = count($Data["data"][0]["employees"]); //le nombre totale des employees
 
 for ($i=0;$i<$employeescount;$i++){
-	echo '<tr> <td class="outside">';
+    echo '<tr> <td class="outside">';//le filtre est appliqué sur cette table
     draw_component($i,$Data);
     echo '</td> </tr>';
                                   }//for
