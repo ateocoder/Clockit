@@ -47,7 +47,7 @@ for ($i=0;$i<$employeescount;$i++){
 	echo '<tr> <td class="outside">';
     draw_component($i,$Data);
     echo '</td> </tr>';
-                                                          }//for
+                                  }//for
 
 ?>
 
